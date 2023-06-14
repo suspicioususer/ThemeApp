@@ -5,7 +5,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.runtime.staticCompositionLocalOf
-import com.example.themeapp.ui.components.data.CustomTheme
+import com.example.themeapp.model.CustomTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 val LocalColors = staticCompositionLocalOf { ThemeACustomColors }

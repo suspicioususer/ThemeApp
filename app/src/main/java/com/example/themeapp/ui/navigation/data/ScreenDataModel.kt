@@ -1,3 +1,3 @@
-package com.example.themeapp.ui.components.data
+package com.example.themeapp.ui.navigation.data
 
 data class ScreenDataModel(var textId: Int? = null)

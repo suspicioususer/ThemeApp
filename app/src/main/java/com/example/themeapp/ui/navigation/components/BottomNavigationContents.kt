@@ -13,8 +13,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.themeapp.data.AppDataStore
-import com.example.themeapp.ui.components.data.ScreenDataModel
-import com.example.themeapp.ui.components.data.CustomTheme
+import com.example.themeapp.ui.navigation.data.ScreenDataModel
+import com.example.themeapp.model.CustomTheme
 import com.example.themeapp.ui.theme.customColors
 import kotlinx.coroutines.launch
 

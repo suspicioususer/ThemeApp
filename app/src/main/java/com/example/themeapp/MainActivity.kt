@@ -13,8 +13,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.themeapp.data.AppDataStore
-import com.example.themeapp.ui.components.data.CustomTheme
-import com.example.themeapp.ui.components.data.ScreenDataModel
+import com.example.themeapp.model.CustomTheme
+import com.example.themeapp.ui.navigation.data.ScreenDataModel
 import com.example.themeapp.ui.navigation.components.BottomNavigationBar
 import com.example.themeapp.ui.navigation.components.ScreenA
 import com.example.themeapp.ui.navigation.components.ScreenB
