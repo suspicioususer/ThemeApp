@@ -15,14 +15,14 @@ import androidx.navigation.compose.rememberNavController
 import com.example.themeapp.data.AppDataStore
 import com.example.themeapp.ui.components.data.CustomTheme
 import com.example.themeapp.ui.components.data.ScreenDataModel
-import com.example.themeapp.ui.navigation.components.BottomNavigationView
+import com.example.themeapp.ui.navigation.components.BottomNavigationBar
 import com.example.themeapp.ui.navigation.components.ScreenA
 import com.example.themeapp.ui.navigation.components.ScreenB
 import com.example.themeapp.ui.navigation.components.ScreenC
 import com.example.themeapp.ui.navigation.data.BottomNavigationModel
 import com.example.themeapp.ui.theme.AppTheme
 
-class MainActivity : ComponentActivity() {
+class MainActivity: ComponentActivity() {
 
     private lateinit var appDataStore: AppDataStore
 
@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
 fun MainScreen(dataStore: AppDataStore) {
     val navController = rememberNavController()
     Scaffold(bottomBar = {
-        BottomNavigationView(navController = navController)
+        BottomNavigationBar(navController = navController)
     }) { paddingValues ->
         Box(modifier = Modifier.padding(bottom = paddingValues.calculateBottomPadding())) {
             Column(modifier = Modifier.fillMaxSize()) {

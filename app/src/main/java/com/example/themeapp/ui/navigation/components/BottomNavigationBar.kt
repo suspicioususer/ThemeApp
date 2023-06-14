@@ -12,7 +12,7 @@ import com.example.themeapp.ui.navigation.data.BottomNavigationModel
 import com.example.themeapp.ui.theme.customColors
 
 @Composable
-fun BottomNavigationView(navController: NavController) {
+fun BottomNavigationBar(navController: NavController) {
     val items = listOf(BottomNavigationModel.A, BottomNavigationModel.B, BottomNavigationModel.C)
     BottomNavigation(backgroundColor = MaterialTheme.customColors.bottomNavigationBackgroundColor,
         contentColor = MaterialTheme.customColors.bottomNavigationContentColor) {
